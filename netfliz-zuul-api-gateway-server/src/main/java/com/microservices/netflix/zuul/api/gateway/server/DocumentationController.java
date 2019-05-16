@@ -1,4 +1,4 @@
-package com.microservices.netflixzuulapigatewayserver;
+package com.microservices.netflix.zuul.api.gateway.server;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +18,7 @@ public class DocumentationController implements SwaggerResourcesProvider {
 	@Override
 	public List<SwaggerResource> get() {
 		List<SwaggerResource> resources = new ArrayList<>();
+		resources.add(swaggerResource("netflix-zuul-api-gateway-server", "/v2/api-docs", "2.0"));
 		resources.add(swaggerResource("account-service", "/account-service/v2/api-docs", "2.0"));
 		resources.add(swaggerResource("registration-service", "/registration-service/v2/api-docs", "2.0"));
 		resources.add(swaggerResource("order-service", "/order-service/v2/api-docs", "2.0"));
