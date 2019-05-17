@@ -1,4 +1,4 @@
-package com.microservices.netflixzuulapigatewayserver;
+package com.microservices.gateway;
 
 import java.util.ArrayList;
 import java.util.List;

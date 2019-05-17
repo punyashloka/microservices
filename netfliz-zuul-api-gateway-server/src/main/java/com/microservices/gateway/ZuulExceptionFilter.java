@@ -1,4 +1,4 @@
-package com.microservices.netflixzuulapigatewayserver;
+package com.microservices.gateway;
 
 import javax.servlet.http.HttpServletRequest;
 
